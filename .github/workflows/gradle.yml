@@ -32,4 +32,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: aviskar1993/my-project
           tags: latest
-          path: /home/runner/work/my-project
+          path: lstat /home/runner/work/my-project/
