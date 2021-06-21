@@ -32,4 +32,3 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: aviskar1993/my-project
           tags: latest
-          context: /home/runner/work/my-project
