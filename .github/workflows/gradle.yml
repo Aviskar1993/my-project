@@ -30,7 +30,7 @@ jobs:
     - name: Install docker
       run: |
           brew install docker-machine docker
-          sudo docker –version
+          sudo docker version
     - name: Set up QEMU
       uses: docker/setup-qemu-action@v1
     - name: Set up Docker Buildx
